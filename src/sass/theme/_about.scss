@@ -1,0 +1,29 @@
+//team section style
+.about-team-section {
+    padding: 100px 0px;
+    background-color: $section-bg-alt-2;
+
+    .about-team-item {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-top: 40px;
+        padding-bottom: 20px;
+
+
+        img {
+
+            object-fit: cover;
+        }
+
+        .about-team-content {
+            margin-left: 20px;
+            margin-top: 20px;
+
+            span {
+                display: block;
+                margin-bottom: 10px;
+                color: $secondary;
+            }
+        }
+
+    }
+}
