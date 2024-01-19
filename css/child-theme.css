@@ -16194,4 +16194,23 @@ a.border-button:hover {
   color: #2ECC71;
 }
 
+.blog-section {
+  padding: 100px 0px;
+  background-color: #ECEFF1;
+}
+.blog-section .blog-item {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 10px;
+}
+.blog-section .blog-item .blog-date {
+  margin-top: 10px;
+}
+.blog-section .blog-item .blog-date date {
+  color: #2ECC71;
+}
+.blog-section .blog-item .blog-date span {
+  color: #4B4A4A;
+  font-size: 0.875rem;
+}
+
 /*# sourceMappingURL=child-theme.css.map */

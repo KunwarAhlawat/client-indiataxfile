@@ -1,0 +1,24 @@
+//home page blog section style
+
+.blog-section {
+    padding: 100px 0px;
+    background-color: $section-bg-alt-1;
+
+    .blog-item {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 10px;
+
+        .blog-date {
+            margin-top: 10px;
+
+            date {
+                color: $secondary;
+            }
+
+            span {
+                color: $dark;
+                font-size: $small-font-size;
+            }
+        }
+    }
+}
