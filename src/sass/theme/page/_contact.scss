@@ -1,0 +1,124 @@
+//contact hero style
+.contact-hero-section {
+    background-color: $primary;
+
+    .contact-hero-content {
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+
+//contact information style
+.contact-information-section {
+    padding: 100px 0px;
+    background-color: $section-bg-alt-2;
+
+    .contact-information-item {
+        // background-color: $secondary;
+        padding: 50px;
+        text-align: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        i {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            padding: 20px;
+        }
+
+        h5 {
+            font-weight: $font-weight-bold;
+            color: $secondary;
+
+        }
+    }
+}
+
+//contact form style
+.contact-form-section {
+    padding: 100px 0px;
+    background-color: $section-bg-alt-3;
+
+
+
+}
+
+//contact location style
+.contact-location-section {
+    padding: 100px 0px;
+
+    .contact-item {
+        height: 270px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h4 {
+
+
+            color: $light;
+        }
+
+        i {
+            font-size: 40px;
+            color: $light;
+
+        }
+
+        p {
+            color: $light;
+        }
+
+        a {
+            border: 1px solid $light;
+            padding: 4px 12px;
+            color: $light;
+            font-weight: $font-weight-bold;
+            text-align: center;
+
+            &:hover {
+                color: $secondary;
+                border: 1px solid $secondary;
+            }
+        }
+
+
+    }
+
+    .item-1 {
+        background-color: $primary;
+        color: $light;
+    }
+
+    .item-2 {
+        background-color: $dark;
+        color: $light;
+    }
+
+    .item-3 {
+        background-color: $secondary;
+
+        a {
+
+            border: 1px solid $light;
+            padding: 4px 12px;
+            color: $light;
+            font-weight: $font-weight-bold;
+            text-align: center;
+
+            &:hover {
+                color: $primary;
+                border: 1px solid $primary;
+                font-family: $body-font-family;
+            }
+        }
+
+    }
+}

@@ -1,48 +1,49 @@
 //footer style
 
 
-.footer-section{
+.footer-section {
     padding: 100px 0;
     background-color: $primary;
     color: $light;
-   
-   
-    .footer-social-icon{
-        i{
+
+
+    .footer-social-icon {
+        i {
             color: $secondary;
             font-size: 24px;
-        
-        }
-    
-    } 
 
-   
-    h5{
-   
-   color: $secondary;
-   font-weight: $font-weight-bold;
-   margin-top: 8px;
+        }
+
     }
-    
-    a{ 
+
+
+    h5 {
+
+        color: $secondary;
+        font-weight: $font-weight-bold;
+        margin-top: 8px;
+    }
+
+    a {
         display: block;
         color: $light;
-        &:hover{
+
+        &:hover {
             color: $secondary;
         }
-    } 
+    }
 
-    .social-icons{
-        padding: 30px ;
+    .social-icons {
+        padding: 30px;
         height: 100%;
-       
+
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: end;
-        
-        
+
+
     }
-   
-   
+
+
 }

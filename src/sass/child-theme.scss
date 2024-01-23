@@ -15,11 +15,8 @@
 
 // Custom File - Kunwar Ahawat
 // Home Page
-@import "theme/home";
-@import "theme/theme";
-@import "theme/header";
-@import "theme/footer";
-@import "theme/contact";
-@import "theme/about";
-@import "theme/blog-sidebar";
-@import "theme/blog";
+@import "./theme/layout.scss";
+@import "./theme/page.scss";
+@import "./theme/theme";
+@import "./theme/component.scss";
+@import "./theme/base";
