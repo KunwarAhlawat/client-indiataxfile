@@ -1,0 +1,29 @@
+.wrapper {
+    background-color: $white;
+
+    .content-area {
+        .format-standard {
+            margin-bottom: 20px;
+
+            .entry-meta {
+                margin: 10px 0px;
+
+                span {
+                    a {
+                        // color: $secondary;
+                        font-size: $small-font;
+                    }
+                }
+            }
+
+            img {
+                margin: 10px 0px;
+            }
+        }
+    }
+
+}
+
+#wrapper-footer-full {
+    background-color: $primary;
+}

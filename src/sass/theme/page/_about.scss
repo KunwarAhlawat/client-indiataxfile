@@ -1,28 +1,54 @@
 //team section style
-.about-team-section {
-    padding: 100px 0px;
-    background-color: $section-bg-alt-2;
-
-    .about-team-item {
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-        margin-top: 40px;
-        padding-bottom: 20px;
-
-
+.about_area {
+    .about_image {
         img {
+            width: 100%;
+        }
+    }
 
-            object-fit: cover;
+    .about_info {
+
+
+
+
+
+        p {
+
+            margin-bottom: 22px;
+            margin-top: 28px;
+
         }
 
-        .about-team-content {
-            margin-left: 20px;
-            margin-top: 20px;
+        ul {
+            margin-bottom: 56px;
+            list-style: none;
+            margin-left: 10px;
 
-            span {
-                display: block;
-                margin-bottom: 10px;
-                color: $secondary;
+            li {
+                font-size: 1rem;
+                line-height: 100%;
+                color: $dark;
+                position: relative;
+                margin-bottom: 5px;
+                padding-left: 20px;
+
+                z-index: 1;
+
+                &::before {
+                    position: absolute;
+                    left: 0;
+                    background-image: url(/images/icon/1.services-icon/check.svg);
+                    width: 16px;
+                    height: 16px;
+                    content: '';
+                    top: 0;
+                    transform: translate(-50%);
+                }
             }
+        }
+
+        .boxed-btn3 {
+            padding: 13px 46px 14px 46px;
         }
 
     }

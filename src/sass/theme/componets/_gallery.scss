@@ -1,0 +1,123 @@
+.gallery_area {
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+
+
+    .single-gallery {
+        overflow: hidden;
+        position: relative;
+
+        img {
+            width: 100%;
+            transform: scale(1);
+            transition: .5s;
+        }
+
+        .gallery_hover {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            display: table;
+            text-align: center;
+            background: rgba(40, 174, 96, .70);
+            transform: -50%;
+
+            opacity: 0;
+            transition: .5s;
+
+            visibility: hidden;
+
+            .hover_inner {
+                display: table-cell;
+                vertical-align: middle;
+
+                h3 {
+                    font-size: 22px;
+                    color: #fff;
+                    font-weight: 400;
+                }
+
+                span {
+                    color: #fff;
+                    font-size: 14px;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        &:hover {
+            .gallery_hover {
+                transform: translateX(0%);
+
+
+                visibility: visible;
+                opacity: 1;
+            }
+
+            img {
+                transform: scale(1.05);
+            }
+        }
+    }
+
+    .More_Works_btn {
+        margin-top: 40px;
+    }
+}
+
+.portfolio_details_area {
+    padding-top: 280px;
+    padding-bottom: 150px;
+
+
+
+    .portfolio_details_thumb {
+        img {
+            width: 100%;
+        }
+    }
+
+    .portfolio_details_content {
+        span {
+            font-size: 14px;
+            font-weight: 300;
+            color: #919191;
+        }
+
+        h3 {
+            color: #2C2C2C;
+
+            margin-top: 15px;
+            margin-bottom: 25px;
+
+
+        }
+
+        h4 {
+
+            font-weight: 400;
+            color: #2C2C2C;
+        }
+
+        p {
+
+            color: #727272;
+            line-height: 28px;
+
+        }
+    }
+}
+
+.mt-50 {
+    margin-top: 50px;
+
+
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+
+}

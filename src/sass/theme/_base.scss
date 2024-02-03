@@ -1,12 +1,11 @@
 /* --------------------------------------------
     Typography 
  ---------------------------------------------- */
-
-
-
-
 body {
     font-family: $body-font;
+    color: $dark;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -19,17 +18,18 @@ h6 {
     font-family: $heading-font;
     margin: 0px;
     line-height: 120%;
+    font-weight: $bold;
 }
 
 h1 {
-    font-size: 2.986rem;
+    font-size: 2.027rem;
 }
 
 // Media query for tablets (portrait and landscape)
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
 
     h1 {
-        font-size: 2.6874rem;
+        font-size: 1.824rem;
 
     }
 
@@ -38,7 +38,7 @@ h1 {
 // Media query for mobile devices
 @media only screen and (max-width: 599px) {
     h1 {
-        font-size: 2.388rem;
+        font-size: 1.621rem;
     }
 
 }
@@ -48,104 +48,104 @@ h1 {
 
 
 h2 {
-    font-size: 2.388rem;
+    font-size: 1.802rem;
 }
 
 // Media query for tablets (portrait and landscape)
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-    h2 {
-        font-size: 2.149rem;
-    }
-}
+// @media only screen and (min-width: 600px) and (max-width: 1024px) {
+//     h2 {
+//         font-size: 1.621rem;
+//     }
+// }
 
-// Media query for mobile devices
-@media only screen and (max-width: 599px) {
-    h2 {
-        font-size: 1.9104rem;
-    }
-}
+// // Media query for mobile devices
+// @media only screen and (max-width: 599px) {
+//     h2 {
+//         font-size: 1.441rem;
+//     }
+// }
 
 
 
 
 h3 {
-    font-size: 2.074rem;
+    font-size: 1.602rem;
 }
 
 // Media query for tablets (portrait and landscape)
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-    h3 {
-        font-size: 1.866rem;
-    }
-}
+// @media only screen and (min-width: 600px) and (max-width: 1024px) {
+//     h3 {
+//         font-size: 1.441rem;
+//     }
+// }
 
-// Media query for mobile devices
-@media only screen and (max-width: 599px) {
-    h3 {
-        font-size: 1.659rem;
-    }
-}
+// // Media query for mobile devices
+// @media only screen and (max-width: 599px) {
+//     h3 {
+//         font-size: 1.281rem;
+//     }
+// }
 
 
 h4 {
-    font-size: 1.728rem;
+    font-size: 1.424rem;
 }
 
-// Media query for tablets (portrait and landscape)
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-    h4 {
-        font-size: 1.555rem;
-    }
-}
+// // Media query for tablets (portrait and landscape)
+// @media only screen and (min-width: 600px) and (max-width: 1024px) {
+//     h4 {
+//         font-size: 1.281rem;
+//     }
+// }
 
-// Media query for mobile devices
-@media only screen and (max-width: 599px) {
-    h4 {
-        font-size: 1.3824rem;
-    }
-}
+// // Media query for mobile devices
+// @media only screen and (max-width: 599px) {
+//     h4 {
+//         font-size: 1.139rem;
+//     }
+// }
 
 
 h5 {
-    font-size: 1.44rem;
+    font-size: 1.266rem;
 }
 
-// Media query for tablets (portrait and landscape)
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-    h5 {
-        font-size: 1.296rem;
-    }
-}
+// // Media query for tablets (portrait and landscape)
+// @media only screen and (min-width: 600px) and (max-width: 1024px) {
+//     h5 {
+//         font-size: 1.139rem;
+//     }
+// }
 
-// Media query for mobile devices
-@media only screen and (max-width: 599px) {
-    h5 {
-        font-size: 1.152rem;
-    }
-}
+// // Media query for mobile devices
+// @media only screen and (max-width: 599px) {
+//     h5 {
+//         font-size: 1.012rem;
+//     }
+// }
 
 h6 {
     font-size: 1rem;
 }
 
 // Media query for tablets (portrait and landscape)
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-    h6 {
-        font-size: 0.9rem;
-    }
-}
+// @media only screen and (min-width: 600px) and (max-width: 1024px) {
+//     h6 {
+//         font-size: 0.9rem;
+//     }
+// }
 
-// Media query for mobile devices
-@media only screen and (max-width: 599px) {
-    h6 {
-        font-size: 0.8rem;
-    }
-}
+// // Media query for mobile devices
+// @media only screen and (max-width: 599px) {
+//     h6 {
+//         font-size: 0.8rem;
+//     }
+// }
 
 
 a {
-    font-size: 1rem;
-    line-height: 150%;
+    // font-size: 1rem;
+    line-height: 100%;
     font-weight: $bold;
     color: $primary;
     text-decoration: none;
@@ -157,46 +157,51 @@ a {
     }
 }
 
-// Media query for tablets (portrait and landscape)
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-    a {
-        font-size: 0.9rem;
-    }
-}
+// // Media query for tablets (portrait and landscape)
+// @media only screen and (min-width: 600px) and (max-width: 1024px) {
+//     a {
+//         // font-size: 0.9rem;
+//     }
+// }
 
-// Media query for mobile devices
-@media only screen and (max-width: 599px) {
-    a {
-        font-size: 0.8rem;
-    }
-}
+// // Media query for mobile devices
+// @media only screen and (max-width: 599px) {
+//     a {
+//         // font-size: 0.8rem;
+//     }
+// }
 
 
 p {
-    margin: 0px;
+    display: block;
     font-size: 1rem;
+    line-height: 160%;
+    margin-bottom: 16px;
+    letter-spacing: 0.5px;
 
 }
 
 // Media query for tablets (portrait and landscape)
-@media only screen and (min-width: 600px) and (max-width: 1024px) {
-    p {
-        font-size: 0.9rem;
-    }
-}
+// @media only screen and (min-width: 600px) and (max-width: 1024px) {
+//     p {
+//         font-size: 0.9rem;
+//     }
+// }
 
-// Media query for mobile devices
-@media only screen and (max-width: 599px) {
-    p {
-        font-size: 0.8rem;
-    }
+// // Media query for mobile devices
+// @media only screen and (max-width: 599px) {
+//     p {
+//         font-size: 0.8rem;
+//     }
+// }
+
+
+.container-fluid {
+    margin: 0px;
+    padding: 0px;
 }
 
 ul {
     margin: 0;
     padding: 0;
-}
-
-li {
-    list-style: none;
 }

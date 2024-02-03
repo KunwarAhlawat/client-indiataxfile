@@ -1,11 +1,12 @@
 //home page blog section style
 
 .blog-section {
-    padding: 100px 0px;
-    background-color: $section-bg-alt-1;
+    background-color: $section-bg-alt-2;
 
     .blog-item {
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        margin-top: 20px;
+        box-shadow: $shadow1;
+        border: $border1;
         padding: 10px;
 
         .blog-date {
@@ -13,11 +14,27 @@
 
             date {
                 color: $secondary;
+                font-size: $small-font;
             }
 
             span {
                 color: $dark;
+                color: $secondary;
                 font-size: $small-font;
+                font-weight: $semi;
+            }
+
+
+        }
+
+        .blog-text {
+
+            h6 {
+                margin: 10px 0px;
+            }
+
+            p {
+                margin-top: 10px;
             }
         }
     }

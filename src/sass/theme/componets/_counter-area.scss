@@ -1,0 +1,23 @@
+.counter_area {
+
+    .single_counter {
+        margin-bottom: 30px;
+        text-align: center;
+
+        h3 {
+            margin-bottom: 18px;
+
+            span {
+                font-size: 3rem;
+                color: $dark;
+                font-weight: 400;
+            }
+        }
+
+        span {
+            font-size: 1rem;
+            color: $primary;
+
+        }
+    }
+}

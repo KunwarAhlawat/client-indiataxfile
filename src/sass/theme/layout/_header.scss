@@ -8,6 +8,12 @@
         justify-content: space-between;
         align-items: center;
         height: 100%;
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style-type: none;
+        }
 
         .social-icons {
             i {
@@ -40,7 +46,9 @@
 //megamenu style
 /* Desktop Mega Menu Css Start */
 .header-section {
-    background-color: $section-bg-alt-2;
+    // background-color: $section-bg-alt-2;
+    box-shadow: $shadow2;
+    border-bottom: $border1 ;
 
     nav {
         position: relative;
@@ -65,6 +73,7 @@
             li {
                 margin-right: 20px;
                 font-weight: $bold;
+                list-style: none;
 
                 a {
                     color: $dark;
@@ -87,10 +96,11 @@
 
     /* css For Service Megamenu */
     .megamenu {
-        min-width: 700px;
+        min-width: 800px;
         position: absolute;
         z-index: 9999;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        box-shadow: $shadow1;
+        border: $border1;
         background-color: $section-bg-alt-2;
 
         /* box-shadow: 0px 10px 2px 3px lightblue; */
@@ -197,7 +207,8 @@
     .solution-megamenu {
         position: absolute;
         z-index: 9999;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        box-shadow: $shadow1;
+        border: $border1;
         background-color: $section-bg-alt-2;
 
         /* box-shadow: 0px 10px 2px 3px lightblue; */
@@ -263,7 +274,8 @@
     .resource-megamenu {
         position: absolute;
         z-index: 9999;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        box-shadow: $shadow1;
+        border: $border1;
         background-color: $section-bg-alt-2;
 
         /* box-shadow: 0px 10px 2px 3px lightblue; */
@@ -344,14 +356,19 @@
 //Offcanvas Style Start
 
 .offcanvas-menu-section {
+    box-shadow: $shadow2;
+    background-color: $light;
+    border-bottom: $border1 ;
+
     .offcanvas-menu-head {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        background-color: $light;
-        margin-top: 16px;
-        padding: 12px 16px;
+        padding: 12px 20px;
+
+
+
 
         .offcanvas-logo {
             img {
@@ -361,12 +378,16 @@
         }
 
         .offcanvas-triger {
-            font-size: 16px;
-            color: $primary;
+            i {
+                font-size: 16px;
+                color: $primary;
+            }
+
         }
 
         a {
             color: $light;
+            padding: 5px;
 
             &:hover {
                 color: $secondary;
@@ -386,7 +407,7 @@
             padding: 0px 16px;
 
             .m-accordion {
-                margin-top: 4px;
+                margin-top: 10px;
 
                 .m-accordion-header {
                     display: flex;
@@ -394,21 +415,40 @@
                     justify-content: space-between;
                     align-items: center;
 
+                    a {
+                        margin-left: 8px;
+                        color: $dark;
+                    }
+
                     p {
                         font-weight: $bold;
+                        color: $dark;
                     }
 
                 }
 
                 .m-accordion-item {
-                    background-color: $primary;
-                    color: $light;
+                    background-color: $light;
+                    color: $dark;
+                    box-shadow: $shadow1;
+                    border: $border1;
                     margin-top: 8px;
-                    padding: 10px;
+                    padding: 0;
                     cursor: pointer;
+
+                    .m-accordion-header {
+                        padding: 5px;
+
+                        p {
+                            margin: 0px;
+                            color: $dark;
+                            margin-left: 8px;
+                        }
+                    }
 
                     .m-accordion-content {
                         display: none;
+                        padding: 0px 20px;
 
                         hr {
                             color: $secondary;
@@ -423,13 +463,16 @@
 
                         ul {
                             margin-bottom: 10px;
+                            padding: 0;
+
 
                             li {
                                 margin-top: 8px;
-                                margin-left: 20px;
+                                margin-left: 16px;
+                                list-style: none;
 
                                 a {
-                                    color: $light;
+                                    color: $dark;
 
                                     &:hover {
                                         color: $secondary;

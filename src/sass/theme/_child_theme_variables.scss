@@ -2,23 +2,16 @@
 // To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
 // Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
 
-// Custom Colors
-$deep-blue: #001F3F; // Main primary
-$emerald-green: #2ECC71; // Secondary
-$gold-amber: #FFD700; // Highlight/CTA
-$light-grey: #F0F0F0; // Section background
-$dark-grey: #4B4A4A; // Subtle bg/border
-$white: #FFFFFF; // Main bg
-
 // Bootstrap Color Overrides
-$primary: $deep-blue;
-$secondary: $emerald-green;
-$success: $emerald-green;
-$info: $gold-amber;
-$warning: $gold-amber;
-$danger: $deep-blue;
-$light: $light-grey;
-$dark: $dark-grey;
+$primary: #3498db;
+$secondary: #2ecc71;
+$accent: #e74c3c;
+$success: #27ae60;
+$info: #3498db;
+$warning: #f39c12;
+$danger: #e74c3c;
+$light: #ecf0f1;
+$dark: #2c3e50;
 
 
 // Alternate Section Background Colors for Smooth Scrolling
@@ -33,27 +26,16 @@ $section-bg-alt-4: #EBEBEB;
 
 // Font Families
 $heading-font: 'Montserrat', sans-serif;
-$body-font: 'Pathway Extreme', sans-serif;
+$body-font: 'Inter', sans-serif;
 
 // Font Weights
-$semi: 500;
+$semi: 600;
 $regular: 400;
 $bold: 700;
 $small-font: 0.875rem;
+$smaller-font: 0.75rem;
 
+$shadow1: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 
-//Accordian Bootstrap Overide
-$accordion-padding-y: 1rem;
-$accordion-padding-x: 1.25rem;
-$accordion-color: $light;
-$accordion-bg: $secondary;
-$accordion-border-width: 1px;
-$accordion-border-color: $dark;
-$accordion-border-radius: 0px;
-$accordion-inner-border-radius: 0px;
-
-$accordion-button-active-bg: $secondary;
-$accordion-button-active-color: $light;
-
-$accordion-button-focus-border-color: $secondary;
-$accordion-button-focus-box-shadow: none;
+$shadow2: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+$border1: 1px solid rgba(0, 0, 0, 0.04);

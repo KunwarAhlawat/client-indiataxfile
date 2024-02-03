@@ -1,0 +1,97 @@
+.service_bg_1 {
+    background-image: url(/images/services/Company\ Registraion.webp);
+}
+
+.service_bg_2 {
+    background-image: url(/images/services/Financial\ Planning.webp);
+}
+
+.service_bg_3 {
+    background-image: url(/images/services/FSSAI.webp);
+}
+
+.service_area {
+
+
+
+
+
+    .single_service {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+        background-position: center;
+        overflow: hidden;
+
+
+        .service_hover {
+            text-align: center;
+            height: 100%;
+            background: RGBA(52, 152, 219, .05);
+            transition: 0.5s;
+
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            img {}
+
+            h3 {
+
+                color: $light;
+                margin-bottom: 0;
+            }
+
+            .hover_content {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                display: table;
+                width: 100%;
+                height: 100%;
+                background: $secondary;
+                transform: translate(40%);
+                transition: 0.5s;
+
+                opacity: 0;
+                visibility: hidden;
+
+                .hover_content_inner {
+                    display: table-cell;
+                    vertical-align: middle;
+                    text-align: center;
+                    padding: 0px 10px;
+
+
+                    h4 {
+
+                        color: $light;
+                    }
+
+                    p {
+
+                        color: $light;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            background-position: top;
+
+            .hover_content {
+                transform: translate(0%);
+
+                opacity: 1;
+                visibility: visible;
+            }
+
+            .service_hover {
+                background: $dark;
+            }
+        }
+    }
+}
